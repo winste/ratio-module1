@@ -1,0 +1,77 @@
+@import url(./styles/normalize.css);
+@import url(./styles/fonts.css);
+@import url(./styles/header.css);
+@import url(./styles/headline.css);
+@import url(./styles/about.css);
+@import url(./styles/features.css);
+@import url(./styles/testimonials.css);
+@import url(./styles/footer.css);
+@import url(./styles/media.css);
+
+:root {
+  --main-font: "Ubuntu", "Arial", "Helvetica", sans-serif;
+  --font-size-body: 18px;
+  --font-size-h1: 80px;
+  --font-size-h2: calc(var(--font-size-h1) / 2);
+  --font-size-h4: calc(var(--font-size-h2) - 16);
+  --color-body: rgba(75, 93, 104, 1);
+  --color-title: rgba(33, 35, 83, 1);
+  --color-main: rgba(156, 105, 226, 1);
+  --color-hover: rgb(163, 47, 157);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 1147px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--color-body);
+  font-size: var(--font-size-body);
+  background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
+  overflow-x: hidden;
+}
+
+a {
+  color: var(--color-body);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+a:hover {
+  color: var(--color-hover);
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+  color: var(--color-title);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+  color: var(--color-title);
+  line-height: 52px;
+}
+
+h4 {
+  font-size: var(--font-size-h4);
+  padding-bottom: 20px;
+}
+
+.logo {
+  max-width: 49px;
+  max-height: 35px;
+}

@@ -1,0 +1,28 @@
+header {
+  padding-top: 62px;
+  padding-bottom: 143px;
+}
+  
+.active {
+  color: rgba(33, 35, 83, 1);
+  font-weight: 800;
+}
+
+.header__navigation {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  min-width: 185px;
+  margin-left: 121px;
+}
+
+.nav__item {
+  margin-right: 30px;
+}
+
+.nav__item:last-child{
+  margin-right: 0px;
+}

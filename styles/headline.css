@@ -1,0 +1,47 @@
+.headline {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+  }
+
+  .headline__wrap {
+    display: flex;
+  }
+
+  .headline__info {
+    flex-shrink: 0;
+  }
+
+  .headline__title {
+    max-width: 650px;
+  }
+  
+  .headline__text {
+    max-width: 380px;
+    line-height: 28.8px;
+    padding-bottom: 50px;
+  }
+  
+  .headline__button {
+    display: block;
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-weight: 800;
+    padding: 16px 37px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(156, 105, 226, 1);
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .headline__button:hover {
+    opacity: .5;
+    animation: increaseIt 1s ease forwards;
+  }
+
+  .headline__image-wrap {
+    position: relative;
+    top: 150px;
+    left: -250px;
+  }
+  
